@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Test from "./components/test";
+import HomePageText from "./components/homepage_text";
 
 export default function Home() {
   return (
@@ -7,7 +7,7 @@ export default function Home() {
     <p>We will start coding from here, everyone will be in charge of 1 componenet</p>
 
     <p>Our test compoenent is below</p>
-    <Test></Test>
+    <HomePageText></HomePageText>
     </div>
   );
 }
