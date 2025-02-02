@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Test from "./components/test";
+import MeetTheTeam from "./components/meettheteam";
 
 export default function Home() {
   return (
@@ -7,7 +8,7 @@ export default function Home() {
     <p>We will start coding from here, everyone will be in charge of 1 componenet</p>
 
     <p>Our test compoenent is below</p>
-    <Test></Test>
+    <MeetTheTeam></MeetTheTeam>
     </div>
   );
 }
