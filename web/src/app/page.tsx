@@ -4,9 +4,10 @@ import MeetTheTeam from "./components/meettheteam";
 
 export default function Home() {
   return (
-    <div className="w-full bg-slate-500 text-center">
+    <div className="w-full  text-center">
       <HomePageText />
       <MeetTheTeam />
+      <div className="h-36 bg-[#1F274D]"></div>
       <Passion /> 
     </div>
   );

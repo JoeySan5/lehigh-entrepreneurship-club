@@ -4,11 +4,11 @@ export default function Passion() {
             {/* Main Content */}
             <div className="flex">
                 {/* Left Column */}
-                <div className="w-1/2 grid grid-cols-2 gap-3 p-6">
-                <div className="bg-white h-32 rounded-md"></div>
-                <div className="bg-white h-38 rounded-md"></div>
-                <div className="bg-white h-38 rounded-md -mt-40"></div>
-                <div className="bg-white h-33 rounded-md col-start-2"></div>
+                <div className="w-1/2 grid grid-cols-2 gap-3 p-7 color text-black">
+                <div className="bg-white  rounded-md">1</div>
+                <div className="bg-white h-38 rounded-md">2</div>
+                <div className="bg-white h-38 rounded-md ">3</div>
+                <div className="bg-white h-33 rounded-md ">4</div>
             </div>
 
                 <div className="w-1/2 p-10 text-left">
