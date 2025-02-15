@@ -14,6 +14,8 @@ export default function MeetTheTeam(){
         <div className="w-full h-40 bg-gray-300"></div>
         <div className="w-full h-40 bg-gray-300"></div>
         <div className="w-full h-40 bg-gray-300"></div>
+        <div className="w-full h-40 bg-gray-300"></div>
+        <div className="w-full h-40 bg-gray-300"></div>
     </div>
     </div>
     </div>
