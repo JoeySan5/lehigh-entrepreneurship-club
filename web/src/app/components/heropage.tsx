@@ -13,7 +13,7 @@ export default function Heropage() {
       );
 
       // Start the animations by setting the begin attribute to 0s (or removing it)
-      animatableElements.forEach((element) => {
+      animatableElements.forEach((element: { hasAttribute: (arg0: string) => any; setAttribute: (arg0: string, arg1: string) => void; }) => {
         // Check if the element has a begin attribute, if so, set it to 0s
         if (element.hasAttribute("begin")) {
           element.setAttribute("begin", "0s");
