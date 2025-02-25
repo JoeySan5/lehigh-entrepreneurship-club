@@ -5,7 +5,7 @@ export default function Passion() {
             <div className="flex">
                 {/* Left Column */}
                 <div className="w-1/2 grid grid-cols-2 gap-3 p-7 color text-black">
-                <div className="bg-white  rounded-md">1</div>
+                <div className="bg-white rounded-md">1</div>
                 <div className="bg-white h-38 rounded-md">2</div>
                 <div className="bg-white h-38 rounded-md ">3</div>
                 <div className="bg-white h-33 rounded-md ">4</div>

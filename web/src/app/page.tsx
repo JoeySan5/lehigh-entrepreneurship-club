@@ -7,7 +7,7 @@ export default function Home() {
     <div className="w-full  text-center">
       <HomePageText />
       <MeetTheTeam />
-      <div className="h-36 bg-[#1F274D]"></div>
+      <div className="h-36 bg-[#1F274D] w-full"></div>
       <Passion /> 
     </div>
   );
