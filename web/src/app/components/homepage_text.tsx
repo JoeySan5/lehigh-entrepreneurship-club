@@ -1,8 +1,8 @@
 export default function HomePageText() {
     return (
-    <div id="parentBlueContainer" className="bg-[#1F274D] min-h-screen text-left">
+    <div id="parentBlueContainer" className=" min-h-screen text-left">
 
-      <div id="childContainer" className="w-screen bg-[#1F274D]   ml-14">
+      <div id="childContainer" className="   ml-14">
 
         <h3 id="slogan" className="text-white pt-8 leading-tight font-[Poppins] text-[60px] md:text-[75px] font-bold ">
             Inspiring Innovators
