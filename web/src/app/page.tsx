@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Test from "./components/test";
+import Test from "./components/test.tsx";
 
 export default function Home() {
   return (
