@@ -5,10 +5,34 @@ export default function Passion() {
             <div className="flex">
                 {/* Left Column */}
                 <div className="w-1/2 grid grid-cols-2 gap-3 p-7 color text-black">
-                <div className="bg-white rounded-md">1</div>
-                <div className="bg-white h-38 rounded-md">2</div>
-                <div className="bg-white h-38 rounded-md ">3</div>
-                <div className="bg-white h-33 rounded-md ">4</div>
+                <div className="bg-white rounded-md">
+            <img 
+              src="/images/project1.jpg" 
+              alt="project1"
+              className="w-full h-full object-cover rounded-md"
+            />
+            </div>
+                <div className="bg-white h-38 rounded-md">
+            <img 
+              src="/images/teamphoto.jpg" 
+              alt="teamphoto"
+              className="w-full h-full object-cover rounded-md"
+            />
+            </div>
+                <div className="bg-white h-38 rounded-md ">
+            <img 
+              src="/images/teamphoto.jpg" 
+              alt="teamphoto"
+              className="w-full h-full object-cover rounded-md"
+            />
+            </div>
+                <div className="bg-white h-33 rounded-md ">
+            <img 
+              src="/images/teamphoto.jpg" 
+              alt="teamphoto"
+              className="w-full h-full object-cover rounded-md"
+            />
+                </div>
             </div>
 
                 <div className="w-1/2 p-10 text-left">
