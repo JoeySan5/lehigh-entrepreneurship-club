@@ -55,7 +55,7 @@ const OscillatingParallax = ({
   
   // Default image properties
   imageUrl = "./web/src/app/components/bulb.png",
-  imageSize = 40,
+  imageSize = 100,
   useImage = true
 }: OscillatingParallaxProps) => {
   // States for positions
@@ -76,16 +76,16 @@ const OscillatingParallax = ({
   const centerX = viewBoxWidth / 2;
   const ballY = 100;
   
-  const backWidth = 700;
+  const backWidth = 900;
   const backHeight = 200;
   const backY = 200;
   
-  const middleWidth = 600;
-  const middleHeight = 150;
+  const middleWidth = 900;
+  const middleHeight = 350;
   const middleY = 250;
   
-  const frontWidth = 500;
-  const frontHeight = 100;
+  const frontWidth = 900;
+  const frontHeight = 300;
   const frontY = 300;
   
   // Create gradient IDs
@@ -182,7 +182,7 @@ const OscillatingParallax = ({
           <div 
             className="absolute pointer-events-none"
             style={{
-              left: `calc(50% - ${imageSize/2}px)`,
+              left: `calc(70% - ${imageSize/2}px)`,
               top: `${(ballY + ballPosition) * (100 / viewBoxHeight)}%`,
               transform: 'translate(-50%, -50%)',
               width: `${imageSize}px`,
