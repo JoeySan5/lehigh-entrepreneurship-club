@@ -21,15 +21,15 @@ export default function Passion() {
             </div>
                 <div className="bg-white h-38 rounded-md ">
             <img 
-              src="/images/teamphoto.jpg" 
-              alt="teamphoto"
+              src="/images/project2.jpg" 
+              alt="project2"
               className="w-full h-full object-cover rounded-md"
             />
             </div>
                 <div className="bg-white h-33 rounded-md ">
             <img 
-              src="/images/teamphoto.jpg" 
-              alt="teamphoto"
+              src="/images/project3.jpg" 
+              alt="project3"
               className="w-full h-full object-cover rounded-md"
             />
                 </div>
