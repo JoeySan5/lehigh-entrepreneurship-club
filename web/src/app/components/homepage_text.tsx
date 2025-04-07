@@ -1,6 +1,6 @@
 export default function HomePageText() {
   return (
-    <div id="parentBlueContainer" className="min-h-screen text-left">
+    <div id="parentBlueContainer" className="w-full text-left">
       <div id="childContainer" className="ml-14 w-[50vw]"> {/* Set width to 50% of the screen */}
         <h3
           id="slogan"
@@ -10,7 +10,7 @@ export default function HomePageText() {
         </h3>
         <p
           id="blurb"
-          className="text-left w-full mt-9 text-white font-[Poppins] text-[15px] md:text-[20px]"
+          className="text-left  w-full mt-9 text-white font-[Poppins] text-[15px] md:text-[20px]"
         >
           Welcome to the Lehigh Entrepreneurship Club, the premier student-led organization dedicated to fostering entrepreneurial spirit and innovation on campus. We empower students to turn their ideas into reality through resources, events, and a strong network of aspiring founders and industry leaders.
         </p>
