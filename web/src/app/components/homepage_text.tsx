@@ -1,6 +1,6 @@
 export default function HomePageText() {
   return (
-    <div id="parentBlueContainer" className="w-full text-left">
+    <div id="parentBlueContainer" className="w-full text-left h-lvh">
       <div id="childContainer" className="ml-14 w-[50vw]"> {/* Set width to 50% of the screen */}
         <h3
           id="slogan"

@@ -3,8 +3,11 @@ export default function WhatWeDo() {
       <div className="min-h-screen flex items-center justify-center bg-gradient-to-b from-[#CED5E0] to-[#FFFFFF] py-16">
         <div className="flex flex-col md:flex-row items-center w-full max-w-screen-xl p-8 rounded-xl">
           {/* Left Box with white background for image */}
-          <div className="w-full md:w-1/2 h-[400px] bg-white rounded-xl mb-8 md:mb-0">
-            {/* Box content for image will go here */}
+          <div className="w-full md:w-1/2  bg-white rounded-xl mb-8 md:mb-0">
+            <video controls autoPlay playsInline>
+            <source src="/LEC.mp4" type="video/mp4" />
+            Your browser does not support the video tag
+            </video>
           </div>
   
           {/* Right Text */}

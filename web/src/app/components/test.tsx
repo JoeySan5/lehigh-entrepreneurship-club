@@ -34,15 +34,15 @@ interface OscillatingParallaxProps {
 const OscillatingParallax = ({
   // Default amplitudes
   ballAmplitude = 30,
-  frontAmplitude = 50,
-  middleAmplitude = 100,
-  backAmplitude = 200,
+  frontAmplitude = 80,
+  middleAmplitude = 75,
+  backAmplitude = 50,
   
   // Default periods (seconds)
   ballPeriod = 5,
   frontPeriod = 20,
   middlePeriod = 30,
-  backPeriod = 40,
+  backPeriod = 50,
   
   // Default colors
   frontStartColor = "#3b82f6",
@@ -76,17 +76,17 @@ const OscillatingParallax = ({
   const centerX = viewBoxWidth / 2;
   const ballY = 100;
   
-  const backWidth = 900;
-  const backHeight = 200;
-  const backY = 200;
+  const backWidth = 1500;
+  const backHeight = 400;
+  const backY = 290;
   
-  const middleWidth = 900;
-  const middleHeight = 350;
-  const middleY = 250;
+  const middleWidth = 1400;
+  const middleHeight = 330;
+  const middleY = 350;
   
-  const frontWidth = 900;
+  const frontWidth = 1100;
   const frontHeight = 300;
-  const frontY = 300;
+  const frontY = 375;
   
   // Create gradient IDs
   const frontGradientId = "frontGradient";
@@ -133,7 +133,7 @@ const OscillatingParallax = ({
   
   return (
     <div className="w-full overflow-hidden">
-      <div className="relative w-full h-lvh border ">
+      <div className="relative w-full h-lvh  ">
         
       {/* Cloud 3 */}
       <div 
