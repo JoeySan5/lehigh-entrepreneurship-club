@@ -33,13 +33,13 @@ interface OscillatingParallaxProps {
 
 const OscillatingParallax = ({
   // Default amplitudes
-  ballAmplitude = 3,
+  ballAmplitude = 30,
   frontAmplitude = 50,
   middleAmplitude = 100,
   backAmplitude = 200,
   
   // Default periods (seconds)
-  ballPeriod = 1,
+  ballPeriod = 5,
   frontPeriod = 20,
   middlePeriod = 30,
   backPeriod = 40,
@@ -55,7 +55,7 @@ const OscillatingParallax = ({
   
   // Default image properties
   imageUrl = "./web/src/app/components/bulb.png",
-  imageSize = 100,
+  imageSize = 150,
   useImage = true
 }: OscillatingParallaxProps) => {
   // States for positions
@@ -182,7 +182,7 @@ const OscillatingParallax = ({
           <div 
             className="absolute pointer-events-none"
             style={{
-              left: `calc(70% - ${imageSize/2}px)`,
+              left: `calc(70% - ${0-imageSize/3}px)`,
               top: `${(ballY + ballPosition) * (100 / viewBoxHeight)}%`,
               transform: 'translate(-50%, -50%)',
               width: `${imageSize}px`,
