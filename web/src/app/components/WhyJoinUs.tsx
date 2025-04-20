@@ -31,7 +31,7 @@ export default function WhyJoinUs() {
     <div className="bg-[#1F274D] py-16">
       {/* Header Section */}
       <div className="text-center mb-12">
-        <h1 className="text-4xl font-bold text-white mb-6">
+        <h1 className="text-6xl font-bold text-white mb-6">
           Why should <span className="text-[#FA9B3B]">YOU</span> join?
         </h1>
         <p className="text-xl text-white">
@@ -40,36 +40,40 @@ export default function WhyJoinUs() {
       </div>
 
       {/* Projects Scroll Section */}
-      <div className="relative overflow-hidden">
-        <div className="flex space-x-8 animate-scroll py-8">
+      <div className="relative w-full overflow-hidden">
+        <div className="w-[200%] flex animate-scroll">
           {/* First set of projects */}
-          {projects.map((project) => (
-            <div
-              key={project.id}
-              className="relative w-[400px] h-[300px] flex-shrink-0 bg-white rounded-xl overflow-hidden"
-            >
-              <Image
-                src={project.image}
-                alt={project.title}
-                fill
-                className="object-cover"
-              />
-            </div>
-          ))}
+          <div className="flex space-x-8 w-1/2">
+            {projects.map((project) => (
+              <div
+                key={project.id}
+                className="relative w-[400px] h-[300px] flex-shrink-0 bg-white rounded-xl overflow-hidden"
+              >
+                <Image
+                  src={project.image}
+                  alt={project.title}
+                  fill
+                  className="object-cover"
+                />
+              </div>
+            ))}
+          </div>
           {/* Duplicate set for seamless loop */}
-          {projects.map((project) => (
-            <div
-              key={`${project.id}-duplicate`}
-              className="relative w-[400px] h-[300px] flex-shrink-0 bg-white rounded-xl overflow-hidden"
-            >
-              <Image
-                src={project.image}
-                alt={project.title}
-                fill
-                className="object-cover"
-              />
-            </div>
-          ))}
+          <div className="flex space-x-8 w-1/2">
+            {projects.map((project) => (
+              <div
+                key={`${project.id}-duplicate`}
+                className="relative w-[400px] h-[300px] flex-shrink-0 bg-white rounded-xl overflow-hidden"
+              >
+                <Image
+                  src={project.image}
+                  alt={project.title}
+                  fill
+                  className="object-cover"
+                />
+              </div>
+            ))}
+          </div>
         </div>
       </div>
 
@@ -84,7 +88,9 @@ export default function WhyJoinUs() {
         }
         
         .animate-scroll {
-          animation: scroll 30s linear infinite;
+          animation: scroll 20s linear infinite;
+          display: flex;
+          width: 200%;
         }
         
         .animate-scroll:hover {

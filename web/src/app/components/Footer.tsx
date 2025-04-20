@@ -1,10 +1,8 @@
-"use client"; // Add this directive at the top
+"use client"; // used for newsletter part
 
 import React from 'react';
 import Image from 'next/image';
 
-// Footer Component using React and Tailwind CSS - Now designated as a Client Component
-// Added classes to make the footer section full height and center content vertically
 export default function Footer() {
   const socialLinks = {
     linkedin: "https://www.linkedin.com/in/lehigh-entrepreneurship-club-631458352",
@@ -89,64 +87,68 @@ export default function Footer() {
         {/* Sponsors Section */}
         <div className="w-full mb-12 overflow-hidden">
           <h3 className="text-2xl font-semibold text-white text-center mb-12">Our Sponsors</h3>
-          <div className="relative w-full">
-            <div className="flex space-x-16 animate-scroll">
+          <div className="relative w-full overflow-hidden">
+            <div className="w-[200%] flex animate-scroll-sponsors">
               {/* First set of logos */}
-              <div className="relative h-24 w-48 flex-shrink-0">
-                <Image
-                  src="/images/LehighLogo.png"
-                  alt="Lehigh University Logo"
-                  fill
-                  className="object-contain"
-                />
+              <div className="flex space-x-16 w-1/2">
+                <div className="relative h-24 w-48 flex-shrink-0">
+                  <Image
+                    src="/images/LehighLogo.png"
+                    alt="Lehigh University Logo"
+                    fill
+                    className="object-contain"
+                  />
+                </div>
+                <div className="relative h-24 w-48 flex-shrink-0">
+                  <Image
+                    src="/images/nasdaq.png"
+                    alt="Nasdaq Logo"
+                    fill
+                    className="object-contain"
+                  />
+                </div>
+                <div className="relative h-24 w-48 flex-shrink-0">
+                  <Image
+                    src="/images/baker.jpg"
+                    alt="Baker Institute Logo"
+                    fill
+                    className="object-contain"
+                  />
+                </div>
               </div>
-              <div className="relative h-24 w-48 flex-shrink-0">
-                <Image
-                  src="/images/nasdaq.png"
-                  alt="Nasdaq Logo"
-                  fill
-                  className="object-contain"
-                />
-              </div>
-              <div className="relative h-24 w-48 flex-shrink-0">
-                <Image
-                  src="/images/baker.jpg"
-                  alt="Baker Institute Logo"
-                  fill
-                  className="object-contain"
-                />
-              </div>
-              {/* Duplicate set of logos for seamless loop */}
-              <div className="relative h-24 w-48 flex-shrink-0">
-                <Image
-                  src="/images/LehighLogo.png"
-                  alt="Lehigh University Logo"
-                  fill
-                  className="object-contain"
-                />
-              </div>
-              <div className="relative h-24 w-48 flex-shrink-0">
-                <Image
-                  src="/images/nasdaq.png"
-                  alt="Nasdaq Logo"
-                  fill
-                  className="object-contain"
-                />
-              </div>
-              <div className="relative h-24 w-48 flex-shrink-0">
-                <Image
-                  src="/images/baker.jpg"
-                  alt="Baker Institute Logo"
-                  fill
-                  className="object-contain"
-                />
+              {/* Duplicate set for seamless loop */}
+              <div className="flex space-x-16 w-1/2">
+                <div className="relative h-24 w-48 flex-shrink-0">
+                  <Image
+                    src="/images/LehighLogo.png"
+                    alt="Lehigh University Logo"
+                    fill
+                    className="object-contain"
+                  />
+                </div>
+                <div className="relative h-24 w-48 flex-shrink-0">
+                  <Image
+                    src="/images/nasdaq.png"
+                    alt="Nasdaq Logo"
+                    fill
+                    className="object-contain"
+                  />
+                </div>
+                <div className="relative h-24 w-48 flex-shrink-0">
+                  <Image
+                    src="/images/baker.jpg"
+                    alt="Baker Institute Logo"
+                    fill
+                    className="object-contain"
+                  />
+                </div>
               </div>
             </div>
           </div>
         </div>
 
         <style jsx global>{`
-          @keyframes scroll {
+          @keyframes scroll-sponsors {
             0% {
               transform: translateX(0);
             }
@@ -155,11 +157,13 @@ export default function Footer() {
             }
           }
           
-          .animate-scroll {
-            animation: scroll 20s linear infinite;
+          .animate-scroll-sponsors {
+            animation: scroll-sponsors 20s linear infinite;
+            display: flex;
+            width: 200%;
           }
           
-          .animate-scroll:hover {
+          .animate-scroll-sponsors:hover {
             animation-play-state: paused;
           }
         `}</style>
