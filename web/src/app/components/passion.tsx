@@ -1,6 +1,6 @@
 export default function Passion() {
     return (
-        <div className="bg-[#1F274D] min-h-screen text-white flex flex-col">
+        <div className="bg-[#1F274D]  text-white flex flex-col">
             {/* Main Content */}
             <div className="flex">
                 {/* Left Column */}

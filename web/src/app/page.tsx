@@ -8,7 +8,14 @@ import Footer from "./components/Footer";
 export default function Home() {
   return (
     <div className=" bg-[#1F274D]  text-center">
-      <HomePageText />
+      <div className="relative">
+        <div className="w-full absolute">
+        </div>
+        <div className=" relative">
+          <HomePageText />
+        </div>
+      </div>
+      
       <WhatWeDo />
       <MeetTheTeam />
       <div className="h-36  "></div>
