@@ -2,6 +2,7 @@ import HomePageText from "./components/homepage_text";
 import Passion from "./components/passion"; 
 import MeetTheTeam from "./components/meettheteam";
 import WhatWeDo from "./components/WhatWeDo";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -10,7 +11,8 @@ export default function Home() {
       <WhatWeDo />
       <MeetTheTeam />
       <div className="h-36  "></div>
-      <Passion /> 
+      <Passion />
+      <Footer />
     </div>
   );
 }
