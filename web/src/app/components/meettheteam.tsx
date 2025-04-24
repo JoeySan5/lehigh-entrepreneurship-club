@@ -19,31 +19,31 @@ export default function MeetTheTeam() {
     },
     {
       name: "Kieran O'Connor",
-      position: "idk",
+      position: "Treasurer",
       image: "/images/keiran.jpg",
       linkedin: "https://www.linkedin.com/in/kieran-o-connor-lu?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
     },
     {
       name: "Atang Bakwena",
-      position: "Marketing?",
+      position: "VP of External Communications",
       image: "/images/atang.jpg",
       linkedin: "https://www.linkedin.com/in/atangbakwena?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
     },
     {
       name: "Eric Schneps",
-      position: "idk",
+      position: "Marketing Associate",
       image: "/images/eric.jpg",
       linkedin: "https://www.linkedin.com/in/eric-schneps?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
     },
     {
       name: "Aaron Lee",
-      position: "idk",
+      position: "VP of Marketing ",
       image: "/images/aaron.jpg",
       linkedin: "https://www.linkedin.com/in/aaron-lee-4688b9300?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
     },
     {
       name: "Ethan Honsel",
-      position: "idk",
+      position: "Associate of External communications k",
       image: "/images/ethan.jpg",
       linkedin: "https://www.linkedin.com/in/ehonsel225?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
     }
