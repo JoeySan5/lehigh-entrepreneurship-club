@@ -13,6 +13,69 @@ export default function Footer() {
   return (
     <footer className="bg-[#1F274D] text-gray-300 py-12 px-4 sm:px-6 lg:px-8 font-[Poppins] min-h-screen flex flex-col">
       <div className="max-w-7xl mx-auto w-full flex-grow flex flex-col items-center justify-between">
+        {/* Sponsors Section */}
+        <div className="w-full mb-12 overflow-hidden">
+          <h3 className="text-2xl font-semibold text-white text-center mb-12">Our Sponsors</h3>
+          <div className="relative w-full overflow-hidden">
+            <div className="w-[200%] flex animate-scroll-sponsors">
+              {/* First set of logos */}
+              <div className="flex space-x-16 w-1/2">
+                <div className="relative h-24 w-48 flex-shrink-0">
+                  <Image
+                    src="/images/LehighLogo.png"
+                    alt="Lehigh University Logo"
+                    fill
+                    className="object-contain"
+                  />
+                </div>
+                <div className="relative h-24 w-48 flex-shrink-0">
+                  <Image
+                    src="/images/nasdaq.png"
+                    alt="Nasdaq Logo"
+                    fill
+                    className="object-contain"
+                  />
+                </div>
+                <div className="relative h-24 w-48 flex-shrink-0">
+                  <Image
+                    src="/images/baker.jpg"
+                    alt="Baker Institute Logo"
+                    fill
+                    className="object-contain"
+                  />
+                </div>
+              </div>
+              {/* Duplicate set for seamless loop */}
+              <div className="flex space-x-16 w-1/2">
+                <div className="relative h-24 w-48 flex-shrink-0">
+                  <Image
+                    src="/images/LehighLogo.png"
+                    alt="Lehigh University Logo"
+                    fill
+                    className="object-contain"
+                  />
+                </div>
+                <div className="relative h-24 w-48 flex-shrink-0">
+                  <Image
+                    src="/images/nasdaq.png"
+                    alt="Nasdaq Logo"
+                    fill
+                    className="object-contain"
+                  />
+                </div>
+                <div className="relative h-24 w-48 flex-shrink-0">
+                  <Image
+                    src="/images/baker.jpg"
+                    alt="Baker Institute Logo"
+                    fill
+                    className="object-contain"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
         {/* Top Row - Logo, Connect, Newsletter */}
         <div className="w-full flex justify-between items-start mb-16">
           {/* Connect With Us - Now on the left */}
@@ -84,69 +147,7 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Sponsors Section */}
-        <div className="w-full mb-12 overflow-hidden">
-          <h3 className="text-2xl font-semibold text-white text-center mb-12">Our Sponsors</h3>
-          <div className="relative w-full overflow-hidden">
-            <div className="w-[200%] flex animate-scroll-sponsors">
-              {/* First set of logos */}
-              <div className="flex space-x-16 w-1/2">
-                <div className="relative h-24 w-48 flex-shrink-0">
-                  <Image
-                    src="/images/LehighLogo.png"
-                    alt="Lehigh University Logo"
-                    fill
-                    className="object-contain"
-                  />
-                </div>
-                <div className="relative h-24 w-48 flex-shrink-0">
-                  <Image
-                    src="/images/nasdaq.png"
-                    alt="Nasdaq Logo"
-                    fill
-                    className="object-contain"
-                  />
-                </div>
-                <div className="relative h-24 w-48 flex-shrink-0">
-                  <Image
-                    src="/images/baker.jpg"
-                    alt="Baker Institute Logo"
-                    fill
-                    className="object-contain"
-                  />
-                </div>
-              </div>
-              {/* Duplicate set for seamless loop */}
-              <div className="flex space-x-16 w-1/2">
-                <div className="relative h-24 w-48 flex-shrink-0">
-                  <Image
-                    src="/images/LehighLogo.png"
-                    alt="Lehigh University Logo"
-                    fill
-                    className="object-contain"
-                  />
-                </div>
-                <div className="relative h-24 w-48 flex-shrink-0">
-                  <Image
-                    src="/images/nasdaq.png"
-                    alt="Nasdaq Logo"
-                    fill
-                    className="object-contain"
-                  />
-                </div>
-                <div className="relative h-24 w-48 flex-shrink-0">
-                  <Image
-                    src="/images/baker.jpg"
-                    alt="Baker Institute Logo"
-                    fill
-                    className="object-contain"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
+        
         <style jsx global>{`
           @keyframes scroll-sponsors {
             0% {
