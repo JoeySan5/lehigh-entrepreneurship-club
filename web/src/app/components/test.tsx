@@ -45,16 +45,16 @@ const OscillatingParallax = ({
   backPeriod = 50,
   
   // Default colors
-  frontStartColor = "#3b82f6",
-  frontEndColor = "#1d4ed8",
-  middleStartColor = "#60a5fa",
-  middleEndColor = "#2563eb",
-  backStartColor = "#93c5fd",
-  backEndColor = "#3b82f6",
-  ballColor = "#ef4444",
+  // frontStartColor = "#3b82f6",
+  // frontEndColor = "#1d4ed8",
+  // middleStartColor = "#60a5fa",
+  // middleEndColor = "#2563eb",
+  // backStartColor = "#93c5fd",
+  // backEndColor = "#3b82f6",
+  // ballColor = "#ef4444",
   
   // Default image properties
-  imageUrl = "./web/src/app/components/bulb.png",
+  // imageUrl = "./web/src/app/components/bulb.png",
   imageSize = 150,
   useImage = true
 }: OscillatingParallaxProps) => {
@@ -71,9 +71,9 @@ const OscillatingParallax = ({
   const startTimeRef = useRef<number | null>(null);
   
   // Define layer dimensions and positions
-  const viewBoxWidth = 800;
+  // const viewBoxWidth = 800;
   const viewBoxHeight = 400;
-  const centerX = viewBoxWidth / 2;
+  // const centerX = viewBoxWidth / 2;
   const ballY = 100;
   
   const backWidth = 1500;
@@ -89,9 +89,9 @@ const OscillatingParallax = ({
   const frontY = 375;
   
   // Create gradient IDs
-  const frontGradientId = "frontGradient";
-  const middleGradientId = "middleGradient";
-  const backGradientId = "backGradient";
+  // const frontGradientId = "frontGradient";
+  // const middleGradientId = "middleGradient";
+  // const backGradientId = "backGradient";
   
   useEffect(() => {
     // Start animation immediately

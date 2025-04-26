@@ -35,7 +35,7 @@ export default function WhyJoinUs() {
           Why should <span className="text-[#FA9B3B]">YOU</span> join?
         </h1>
         <p className="text-xl text-white">
-          Let's turn the spotlight where it should be – student entrepreneurs and their projects.
+          Let&apos;s turn the spotlight where it should be - student entrepreneurs and their projects.
         </p>
       </div>
 
