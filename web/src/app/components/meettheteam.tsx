@@ -43,7 +43,7 @@ export default function MeetTheTeam() {
     },
     {
       name: "Ethan Honsel",
-      position: "Associate of External communications k",
+      position: "Associate of External Communications",
       image: "/images/ethan.jpg",
       linkedin: "https://www.linkedin.com/in/ehonsel225?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
     }
