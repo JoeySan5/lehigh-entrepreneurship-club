@@ -11,15 +11,15 @@ export default function Footer() {
   };
 
   return (
-    <footer className="bg-[#1F274D] text-gray-300 py-12 px-4 sm:px-6 lg:px-8 font-[Poppins] min-h-screen flex flex-col">
-      <div className="max-w-7xl mx-auto w-full flex-grow flex flex-col items-center justify-between">
+    <footer className="bg-[#1F274D] text-gray-300 py-12 px-2 sm:px-6 lg:px-8 font-[Poppins] min-h-screen flex flex-col">
+      <div className="mx-auto w-full flex-grow flex flex-col items-center justify-between">
         {/* Sponsors Section */}
         <div className="w-full mb-12 overflow-hidden">
           <h3 className="text-2xl font-semibold text-white text-center mb-12">Our Sponsors</h3>
           <div className="relative w-full overflow-hidden">
             <div className="w-[200%] flex animate-scroll-sponsors">
               {/* First set of logos */}
-              <div className="flex space-x-16 w-1/2">
+              <div className="flex space-x-11  ">
                 <div className="relative h-24 w-48 flex-shrink-0">
                   <Image
                     src="/images/LehighLogo.png"
@@ -154,14 +154,14 @@ export default function Footer() {
               transform: translateX(0);
             }
             100% {
-              transform: translateX(-50%);
+              transform: translateX(-25%);
             }
           }
           
           .animate-scroll-sponsors {
-            animation: scroll-sponsors 20s linear infinite;
+            animation: scroll-sponsors 10s linear infinite;
             display: flex;
-            width: 200%;
+            width: 150%;
           }
           
           .animate-scroll-sponsors:hover {

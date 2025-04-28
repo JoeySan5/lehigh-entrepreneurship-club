@@ -8,7 +8,7 @@ import Test from "./components/test";
 
 export default function Home() {
   return (
-    <div className=" bg-[#1F274D]  text-center">
+    <div className=" bg-[#1F274D]  text-center w-screen">
       <div className="relative">
         <div className="w-full absolute">
           <Test></Test>

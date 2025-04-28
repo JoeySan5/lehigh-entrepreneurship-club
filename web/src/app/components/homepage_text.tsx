@@ -3,7 +3,7 @@ import { useRouter } from "next/navigation";
 export default function HomePageText() {
   const router = useRouter()
   return (
-    <div id="parentBlueContainer" className="w-full text-left h-lvh">
+    <div id="parentBlueContainer" className=" text-left h-lvh">
       <div id="childContainer" className="ml-14 w-[50vw]"> {/* Set width to 50% of the screen */}
         <h3
           id="slogan"
