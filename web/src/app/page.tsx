@@ -4,7 +4,7 @@ import MeetTheTeam from "./components/meettheteam";
 import WhatWeDo from "./components/WhatWeDo";
 import WhyJoinUs from "./components/WhyJoinUs";
 import Footer from "./components/Footer";
-import Test from "./components/test";
+import Test from "./components/homepage_animation";
 
 export default function Home() {
   return (

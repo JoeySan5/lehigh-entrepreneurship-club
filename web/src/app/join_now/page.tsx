@@ -256,14 +256,12 @@ const JoinNow: FC = () => {
                     <h1 style={titleStyle}>Welcome!</h1>
                     <p style={subtitleStyle}>Join our community to get started.</p>
 
-                    <div style={joinButtonStyle}>
                       <a
                         href="https://lehigh.campuslabs.com/engage/organization/lec"
                         style={joinButtonStyle}
                       >
                         Join Now
                       </a>
-                    </div>
 
                     <div style={socialSectionStyle}>
                         <p style={socialTextStyle}>Connect with us:</p>

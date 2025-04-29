@@ -165,31 +165,29 @@ const OscillatingParallax = ({
 
       {/* Cloud with horizontal oscillation (positioned absolutely) */}
       <div 
-        className="absolute pointer-events-none"
+        className="absolute pointer-events-none w-[1100px] h-[300px] lg:w-[8000px]"
         style={{
           left: `calc(50% + ${layerPositions.front}px)`,
           top: `${frontY * (100 / viewBoxHeight)}%`,
           transform: 'translate(-50%, -50%)',
-          width: `${frontWidth}px`,
-          height: `${frontHeight}px`,
+         
         }}
       >
-      <Image src="/cloud1.svg" fill alt="cloud1" style={{ objectFit: 'contain' }} />
+      <Image src="/cloud1.svg" fill alt="cloud1" objectFit='contain' />
       </div>
         
         {/* PNG image overlay with vertical oscillation (positioned absolutely) */}
         {useImage && (
           <div 
-            className="absolute pointer-events-none"
+            className="absolute pointer-events-none w-[200px] h-[200px] md:w-[300px] md:h-[300px] lg:w-[425px] lg:h-[425px]"
             style={{
               left: `calc(70% - ${0-imageSize/3}px)`,
-              top: `${(ballY + ballPosition) * (100 / viewBoxHeight)}%`,
+              top: `${(ballY + ballPosition + 50) * (100 / viewBoxHeight)}%`,
               transform: 'translate(-50%, -50%)',
-              width: `${imageSize}px`,
-              height: `${imageSize}px`,
+        
             }}
           >
-            <Image src="/rocket.svg" width={500} height={500} alt="rocket"/>
+            <Image  src="/rocket.svg" fill={true} alt="light bulb rocket" objectFit='contain'/>
           </div>
         )}
       </div>

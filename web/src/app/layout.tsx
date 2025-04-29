@@ -16,6 +16,7 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: "Lehigh Entrepreneurship Club Site",
   description: "Lehigh's Premier Entrepreneurship Club",
+  
 };
 
 export default function RootLayout({
@@ -25,6 +26,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head></head>
       <body
         className={poppins.className}
       >
